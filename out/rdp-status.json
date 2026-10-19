@@ -1,42 +1,42 @@
 {
   "active": true,
-  "hostname": "rdpfree-3",
+  "hostname": "rdpfree-4",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "disk_free_gb": 82.6,
     "ram_gb": 16.0,
+    "disk_free_gb": 79.8,
     "cpu_threads": 4
   },
   "rdp_port": 3389,
   "rdp_user": "Reeyx",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-19T02:49:48Z",
-  "expires_at": "2026-10-19T08:31:48Z",
+  "started_at": "2026-10-19T02:52:54Z",
+  "expires_at": "2026-10-19T08:34:54Z",
   "duration_menit": 342,
-  "run_id": "39191755304",
+  "run_id": "39191976886",
   "run_attempt": "1",
-  "run_number": "3",
-  "run_url": "https://github.com/ressonlyy3-ux/XyRDP/actions/runs/39191755304",
+  "run_number": "4",
+  "run_url": "https://github.com/ressonlyy3-ux/XyRDP/actions/runs/39191976886",
   "mode": "bersih+win10",
   "akses": {
     "tailscale": {
-      "ip": "100.125.162.22",
-      "hostname": "rdpfree-3",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
       "magicdns": "rdpfree-3.tail3c6e19.ts.net.",
       "status": "ok",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
+      "hostname": "rdpfree-4",
+      "ip": "100.125.162.22"
     },
     "mode": "tailscale",
     "tunnel": {
       "address": "100.125.162.22:3389",
-      "selftest": "ok",
       "status": "ok",
+      "host": "100.125.162.22",
       "port": 3389,
-      "outside": "tailscale",
-      "host": "100.125.162.22"
+      "selftest": "ok",
+      "outside": "tailscale"
     }
   }
 }
